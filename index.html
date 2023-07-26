@@ -9,43 +9,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="lg:px-32">
-        <!-- navbar -->
-        <nav class="mt-12">
-            <div class="navbar text-white rounded-full bg-[#F85559]">
-                <div class="navbar-start hidden lg:flex flex-1">
+  <header class="">
+    <!-- navbar -->
+    <nav class="mt-12 px-5">
+      <div class="navbar text-white rounded-full bg-[#F85559]">
+        <div class="navbar-start hidden lg:flex flex-1">
                   <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
                     <li><a>About Us</a></li>
                     <li><a>Shop</a></li>
                     <li><a>All Fruits</a></li>
                   </ul>
-                </div>
-                <div class=" lg:flex-1">
-                    <img src="images/logo.png" alt="">
-                    <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
-                </div>
-                <div class="form-control lg:flex-1">
+        </div>
+        <div class=" lg:flex-1">
+          <img src="images/logo.png" alt="">
+          <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+        </div>
+        <div class="form-control lg:flex-1">
                     <input type="text" placeholder="Search" class="input input-bordered w-24 bg-white text-[#12121266] rounded-full md:w-auto" />
-                </div>
-            </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
 
-        <!-- banner part -->
-        <section class="mt-14">
-            <div class="carousel w-full">
-                <div id="slide1" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner1.png'); background-size: 100%; background-repeat: no-repeat;">
-                    <div>
-                        <h1 class="text-white text-7xl mb-6 mt-20">Exotic tastes at your<br>doorstep</h1>
-                        <p class="text-white text-xl mb-8">We supply highly quality organic products</p>
-                        <button class="btn mb-52">Shop Now</button>
-                    </div>
-                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                    <a href="#slide4" class="btn btn-circle">❮</a> 
-                    <a href="#slide2" class="btn btn-circle">❯</a>
-                  </div>
-                </div>
-                <div id="slide2" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner2.png'); background-size: 100%; background-repeat: no-repeat;">
+    <!-- banner part -->
+    <section class="mt-12 px-5">
+      <div class="carousel w-full">
+        <div id="slide1" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner1.png'); background-size: 100%; background-repeat: no-repeat;">
+          <div>
+            <h1 class="text-white text-7xl mb-6 mt-20">Exotic tastes at your<br>doorstep</h1>
+            <p class="text-white text-xl mb-8">We supply highly quality organic products</p>
+            <button class="btn mb-52">Shop Now</button>
+          </div>
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <div id="slide2" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner2.png'); background-size: 100%; background-repeat: no-repeat;">
                     <div>
                         <h1 class="text-white text-7xl mb-6 mt-20">Exotic tastes at your<br>doorstep</h1>
                         <p class="text-white text-xl mb-8">We supply highly quality organic products</p>
@@ -55,8 +56,9 @@
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
-                </div> 
-                <div id="slide3" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner3.png'); background-size: 100%; background-repeat: no-repeat;">
+        </div> 
+
+        <div id="slide3" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner3.png'); background-size: 100%; background-repeat: no-repeat;">
                     <div>
                         <h1 class="text-white text-7xl mb-6 mt-20">Exotic tastes at your<br>doorstep</h1>
                         <p class="text-white text-xl mb-8">We supply highly quality organic products</p>
@@ -66,8 +68,9 @@
                     <a href="#slide2" class="btn btn-circle">❮</a> 
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
-                </div> 
-                <div id="slide4" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner4.png'); background-size: 100%; background-repeat: no-repeat;">
+        </div> 
+
+        <div id="slide4" class="justify-center text-center carousel-item relative w-full" style="background-image: url('images/banner4.png'); background-size: 100%; background-repeat: no-repeat;">
                     <div>
                         <h1 class="text-white text-7xl mb-6 mt-20">Exotic tastes at your<br>doorstep</h1>
                         <p class="text-white text-xl mb-8">We supply highly quality organic products</p>
@@ -77,27 +80,27 @@
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide1" class="btn btn-circle">❯</a>
                   </div>
-                </div>
-            </div>
-        </section>
-    </header>
+        </div>
+      </div>
+    </section>
+  </header>
 
-    <main class="lg:px-32">
-        <div class="relative carousel-item justify-center text-center w-full mt-36 flex flex-col" style="background-image: url('images/team.png'); background-size: 100%; background-repeat: no-repeat;">
+  <main class="lg:px-32">
+    <!-- Team -->
+    <div class="relative carousel-item justify-center text-center w-full mt-36 flex flex-col" style="background-image: url('images/team.png'); background-size: 100%; background-repeat: no-repeat;">
             <div>
                 <h1 class="text-white text-7xl mb-6 mt-32">Meet the team section</h1>
                 <p class="text-white text-base mb-8 max-w-xl m-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
             </div>
-
             <div class="flex justify-around">
                 <div>
-                    <div class="card w-56">
-                        <figure class="px-10 pt-8">
-                          <img src="/images/member1.png" alt="Shoes" class="rounded-xl" />
+                    <div class="card w-60">
+                        <figure class="">
+                          <img src="images/member1.png" alt="Shoes" class="rounded-xl w-24" />
                         </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="text-white text-2xl">Awlad Hossain</h2>
-                          <p>Fruits Expert</p>
+                        <div class="card-body items-center text-center pt-0 mt-2">
+                          <h2 class="text-white text-xl">Awlad Hossain</h2>
+                          <p class="text-white">Fruits Expert</p>
                           <div class="card-actions">
                             <img src="images/lil.logo.facebook.png" alt="">
                             <img src="images/lil.logo.twitter.png" alt="">
@@ -107,13 +110,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card w-56">
-                        <figure class="px-10 pt-8">
-                          <img src="/images/member2.png" alt="Shoes" class="rounded-xl" />
+                    <div class="card w-60">
+                        <figure class="">
+                          <img src="images/member2.png" alt="Shoes" class="rounded-xl w-24" />
                         </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="text-white text-2xl">Safia Chowdhury</h2>
-                          <p>Fruits Expert</p>
+                        <div class="card-body items-center text-center pt-0 mt-2">
+                          <h2 class="text-white text-xl">Safia Chowdhury</h2>
+                          <p class="text-white">Fruits Expert</p>
                           <div class="card-actions">
                             <img src="images/lil.logo.facebook.png" alt="">
                             <img src="images/lil.logo.twitter.png" alt="">
@@ -123,13 +126,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card w-56">
-                        <figure class="px-10 pt-8">
-                          <img src="/images/member3.png" alt="Shoes" class="rounded-xl" />
+                    <div class="card w-60">
+                        <figure class="">
+                          <img src="images/member3.png" alt="Shoes" class="rounded-xl w-24" />
                         </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="text-white text-2xl">Rokib Hossain</h2>
-                          <p>Fruits Expert</p>
+                        <div class="card-body items-center text-center pt-0 mt-2">
+                          <h2 class="text-white text-xl">Rokib Hossain</h2>
+                          <p class="text-white">Fruits Expert</p>
                           <div class="card-actions">
                             <img src="images/lil.logo.facebook.png" alt="">
                             <img src="images/lil.logo.twitter.png" alt="">
@@ -139,13 +142,13 @@
                     </div>
                 </div>
                 <div>
-                    <div class="card w-56">
-                        <figure class="px-10 pt-8">
-                          <img src="/images/member4.png" alt="Shoes" class="rounded-xl" />
+                    <div class="card w-60">
+                        <figure class="">
+                          <img src="images/member4.png" alt="Shoes" class="rounded-xl w-24" />
                         </figure>
-                        <div class="card-body items-center text-center">
-                          <h2 class="text-white text-2xl">Chaity</h2>
-                          <p>Fruits Expert</p>
+                        <div class="card-body items-center text-center pt-0 mt-2">
+                          <h2 class="text-white text-xl">Chaity</h2>
+                          <p class="text-white">Fruits Expert</p>
                           <div class="card-actions">
                             <img src="images/lil.logo.facebook.png" alt="">
                             <img src="images/lil.logo.twitter.png" alt="">
@@ -155,9 +158,32 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </main>
+    </div>
+  </main>
 
-    <footer></footer>
+  <footer class="footer footer-center p-10 bg-[#121212] text-base-content rounded py-32 mt-32">
+    <div class="flex">
+      <img src="images/logo.png" alt="">
+      <h3 class="text-white text-4xl">Fruit Burst</h3>
+    </div>
+    <div class="grid grid-flow-col gap-14 text-white text-lg">
+      <a class="link link-hover">Home</a> 
+      <a class="link link-hover">About Us</a> 
+      <a class="link link-hover">Shop</a> 
+      <a class="link link-hover">All Fruits</a>
+      <a class="link link-hover">Support</a>
+      <a class="link link-hover">My Account</a>
+    </div> 
+    <div>
+      <div class="grid grid-flow-col gap-10 items-center">
+        <a><img class="w-10" src="images/icons/twitter 1.png" alt=""></a>
+        <a><img class="w-10" src="images/icons/facebook 1.png" alt=""></a>
+        <a><img class="w-10" src="images/icons/Group 49.png" alt=""></a>
+        <a><img class="w-10" src="images/icons/linkedin 1.png" alt=""></a>
+        <a><img class="w-10" src="images/icons/instagram 1.png" alt=""></a>
+        <a><img class="w-10" src="images/icons/apple 1.png" alt=""></a>
+      </div>
+    </div> 
+  </footer>
 </body>
 </html>
