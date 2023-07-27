@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+    <link rel="icon" type="images" href="images/logo.png">
     <!-- daisyui and tailwindcss -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/e8fb2299b2.js" crossorigin="anonymous"></script>
 
     <!-- css -->
     <style>
@@ -22,7 +26,7 @@
   <header class="">
     <!-- navbar -->
     <nav class="mt-12 px-0 lg:px-5">
-      <div class="navbar text-white rounded-full bg-[#F85559]">
+      <div class="navbar text-white rounded-full flex bg-white lg:bg-[#F85559] md:bg-[#F85559]">
         <div class="navbar-start hidden lg:flex flex-1">
                   <ul class="menu menu-horizontal px-1">
                     <li><a>Home</a></li>
@@ -33,10 +37,16 @@
         </div>
         <div class=" lg:flex-1">
           <img src="images/logo.png" alt="">
-          <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
+          <a class="btn btn-ghost normal-case text-xl text-black lg:text-white">Fruit Burst</a>
         </div>
         <div class="form-control hidden md:flex md:flex-1 lg:flex lg:flex-1">
-          <input type="text" placeholder="Search" class="input input-bordered w-24 bg-white text-[#12121266] rounded-full md:w-auto" />
+          <div class="relative">
+            <input type="text" placeholder="Search" class="input input-bordered w-24 bg-white text-[#12121266] rounded-full md:w-auto" />
+            <i class="fa-solid text-black fa-magnifying-glass lg:absolute lg:right-5 lg:bottom-4 md:absolute md:right-5 md:bottom-4"></i>
+          </div>
+        </div>
+        <div class="justify-end flex-1 md:hidden lg:hidden">
+          <i class="fa-solid fa-bars text-black"></i>
         </div>
       </div>
     </nav>
@@ -154,7 +164,7 @@
         </div>
       </div>
 
-      <div class="flex flex-col md:grid md:grid-cols-2 lg:flex-row justify-between mt-12">
+      <div class="flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row justify-between mt-12">
         <div class="card bg-white border-[#1212121A] border-2">
           <figure class="">
             <img src="images/fruit6.png" alt="Shoes" class="rounded-xl py-10" />
@@ -462,7 +472,9 @@
           <div class="flex gap-6 flex-col justify-center items-center lg:flex-row">
             <div class="order-2 lg:order-none">
               <h4 class="mb-5 text-2xl font-bold">Integrated Supplier</h4>
-              <hr class="w-1/2 m-auto lg:ml-0">
+              <div class="relative">
+                <hr class="w-1/2 m-auto lg:ml-0 lg:absolute lg:top-0 lg:right-0">
+              </div>
               <p class="mt-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
 
@@ -490,7 +502,9 @@
           <div class="flex gap-6 flex-col justify-center items-center lg:flex-row">
             <div class="order-2 lg:order-none">
               <h4 class="mb-5 text-2xl font-bold">Sustainable Practice</h4>
-              <hr class="w-1/2 m-auto lg:ml-0">
+              <div class="relative">
+                <hr class="w-1/2 m-auto lg:ml-0 lg:absolute lg:top-0 lg:right-0">
+              </div>
               <p class="mt-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <svg class="order-1 lg:order-none" width="90" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -502,7 +516,9 @@
           <div class="flex gap-6 flex-col justify-center items-center lg:flex-row">
             <div class="order-2 lg:order-none">
               <h4 class="mb-5 text-2xl font-bold">The Benefits Only</h4>
-              <hr class="w-1/2 m-auto lg:ml-0">
+              <div class="relative">
+                <hr class="w-1/2 m-auto lg:ml-0 lg:absolute lg:top-0 lg:right-0">
+              </div>
               <p class="mt-4">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <svg class="order-1 lg:order-none" width="90" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
